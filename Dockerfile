@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:11-jdk-alpine
 RUN mkdir -p /home/test/
 WORKDIR /home/test/
 COPY Simple.java .
